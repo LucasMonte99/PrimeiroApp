@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+#Banner{
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+h1{
+    list-style: none;
+    color:#05C7F2;
+    text-align:center;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+h1:hover{
+  color:#BF303C;
+}
+
+.primeiro-paragrafo{
+    width: 95%;
+    display: flex;
+    font-size: 19px;
+    color:#05C7F2;
+    text-align:center;
+    justify-content: space-between;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.bloco-inicial{
+    width: 95%;
+    display: block;
+    flex-wrap: wrap;
+    color:#05C7F2;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.titulo{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    font-size: 19px;
+    color:white;
+    text-align:center;
+    margin-top: 30px;
+    justify-content: space-between;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+span{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    font-size: 19px;
+    color:#05C7F2;
+    text-align:justify;
+    margin-left: 30px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.segundo-paragrafo{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    font-size: 19px;
+    color:#05C7F2;
+    text-align:justify;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.frase{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    font-size: 19px;
+    color:red;
+    text-align:center;
+    margin-top: 50px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.comentarios{
+    list-style: none;
+    color: #05C7F2;
+    text-align:justify;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 95%;
+    margin-left: 30px;
+}
+
+#comentario{
+    display: block;
+    margin-top: 30px;
+}
+
+.button-nome{
+    width: 90px;
+    height: 30px;
+    background-color: #0634BF;
+    color: black;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.button-comentario{
+    width: 120px;
+    height: 30px;
+    background-color: #0634BF;
+    color: black;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+@media(max-width:768px){
+    #Banner{
+        background-position: 50%;  
+    }
+    .titulo-comentario{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .texto-container{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+}

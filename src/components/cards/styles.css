@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.actor-cards-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #000;
+}
+
+.cards-content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #FAD705;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+card:hover {
+    transform: scale(1.02);
+}
+
+.banner1 {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c3e8b769-127e-4972-9fd1-fc1991546dea/ddplgi8-670ed447-fd42-42a0-8988-d81968c3d518.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2MzZThiNzY5LTEyN2UtNDk3Mi05ZmQxLWZjMTk5MTU0NmRlYVwvZGRwbGdpOC02NzBlZDQ0Ny1mZDQyLTQyYTAtODk4OC1kODE5NjhjM2Q1MTgucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.vWV8T4IPU7QGdyY0_mHV2uqIgOyLsXxa-rFCLMtk2Q0');
+}
+
+.banner2 {
+    background-image: url('https://i.kym-cdn.com/photos/images/original/001/998/214/2d0');
+}
+
+.banner3 {
+    background-image: url('https://images.hdqwalls.com/download/panam-palmer-cyberpunk-2077-00-540x960.jpg');
+}
+
+@media(max-width:768px){
+    .cards-content{
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+
+    }
+}
